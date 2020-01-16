@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tsuki.germaninnutshell">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WordsActivity" />
+        <activity android:name=".AddActivity" />
+        <activity android:name=".GramActivity" />
+        <activity android:name=".CzasownikHabenActivity" />
+        <activity android:name=".OdmianaCzasPrzezOsActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".QuizResultActivity" />
+        <activity android:name=".UserProfileActivity" />
+        <activity android:name=".QuizMainActivity" />
+        <activity android:name=".OdmianaCzasSeinActivity" />
+        <activity android:name=".LiczebnikiActivity" />
+        <activity android:name=".LicznaMnogaActivity" />
+        <activity android:name=".RodzajnikiActivity" />
+        <activity android:name=".OdmianiaRodzajnikaActivity" />
+        <activity android:name=".ZaimekDzierzawczyActivity" />
+        <activity android:name=".StrukturaZdaniaActivity" />
+        <activity android:name=".StrukturaPytaniaActivity" />
+        <activity android:name=".GodzinyActivity" />
+        <activity android:name=".BonusActivity"></activity>
+    </application>
+
+</manifest>

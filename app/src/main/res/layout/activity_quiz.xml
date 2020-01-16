@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tsuki.germaninnutshell.QuizActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#F1F5C7"
+    android:textAlignment="center"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Pytanie 1"
+        android:textColor="#9F3852"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:textColor="#A94353"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Pytanie"
+        android:textSize="30dp"
+        android:layout_weight="0.26" />
+
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="#E37654"
+        android:textColor="#A94353"
+        android:text="Odp 1"
+        android:onClick="checkAnswer"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="#E37654"
+        android:textColor="#A94353"
+        android:text="Odp 2"
+        android:onClick="checkAnswer"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="#E37654"
+        android:textColor="#A94353"
+        android:text="Odp 3"
+        android:onClick="checkAnswer"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/answerBtn4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="#E37654"
+        android:textColor="#A94353"
+        android:text="Odp 4"
+        android:onClick="checkAnswer"
+        android:layout_marginTop="6dp"/>
+
+</LinearLayout>

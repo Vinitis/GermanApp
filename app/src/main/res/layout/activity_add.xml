@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F5C7"
+    tools:context="com.example.tsuki.germaninnutshell.AddActivity">
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E37654"
+        android:text="ADD"
+        android:textColor="#A94353"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/addText" />
+
+    <Button
+        android:id="@+id/viewDataButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addButton"
+        android:layout_alignBottom="@+id/addButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="84dp"
+        android:background="#E37654"
+        android:text="View data"
+        android:textColor="#A94353"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/addButton"
+        android:layout_alignEnd="@+id/viewDataButton"
+        android:layout_marginBottom="44dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="Dodaj słowo:"
+        android:textAlignment="center"
+        android:textColor="#A94353"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
